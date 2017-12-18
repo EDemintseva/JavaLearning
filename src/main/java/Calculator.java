@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * @author Ekaterina Demintseva
- * В классе Calculator реализован сложение дробных чисел, которые пользователь вводит в консоль.
+ * В классе Calculator реализовано сложение дробных чисел, которые пользователь вводит в консоль.
  */
 
 public class Calculator {
@@ -17,7 +17,6 @@ public class Calculator {
         //Вывод результата
         float result = firstNumber + secondNumber;
         System.out.printf("Sum is: %.4f", result);
-
         scanner.close();
     }
 }
