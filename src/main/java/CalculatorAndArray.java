@@ -5,7 +5,7 @@ import java.util.Scanner;
  * В классе TaskOfTheSecondWeek реализованы простые операции калькулятора и поиск самого длинного элемента массива.
  */
 
-public class TaskOfTheSecondWeek {
+public class CalculatorAndArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //Выбор режима работы программы
@@ -65,7 +65,7 @@ public class TaskOfTheSecondWeek {
             if (arr[i].length() > lWord.length())
                 lWord = arr[i];
         }
-        System.out.println(lWord);
+        System.out.println("Element with max length is " + lWord);
         scanner.close();
     }
 }
