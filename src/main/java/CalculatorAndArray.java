@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * @author Ekaterina Demintseva
- * В классе TaskOfTheSecondWeek реализованы простые операции калькулятора и поиск самого длинного элемента массива.
+ * В классе CalculatorAndArray реализованы простые операции калькулятора и поиск самого длинного элемента массива.
  */
 
 public class CalculatorAndArray {
