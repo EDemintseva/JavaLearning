@@ -6,6 +6,13 @@ public class Sweets {
     private float price;
     private String unique;
 
+/*    public Sweets (String name, float weight, float price, String unique){
+        this.name = name;
+        this.weight = weight;
+        this.price = price;
+        this.unique = unique;
+    }*/
+
     public String getName() {
         return name;
     }
