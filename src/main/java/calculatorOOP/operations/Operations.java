@@ -43,19 +43,19 @@ public class Operations {
         return result;
     }
 
-    private float sum(){
+    public float sum(){
         return this.var1 + this.var2;
     }
 
-    private float sub(){
+    public float sub(){
         return this.var1 - this.var2;
     }
 
-    private float mult(){
+    public float mult(){
         return this.var1 * this.var2;
     }
 
-    private float div() throws ArithmeticException{
+    public float div() throws ArithmeticException{
         return this.var1 / this.var2;
     }
 
